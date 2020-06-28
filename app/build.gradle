@@ -64,6 +64,9 @@ dependencies {
     implementation 'androidx.room:room-ktx:2.2.5'
     kapt 'androidx.room:room-compiler:2.2.5'
     implementation 'androidx.work:work-runtime-ktx:2.3.4'
+    implementation 'androidx.databinding:databinding-runtime:4.0.0'
+    implementation 'androidx.navigation:navigation-runtime-ktx:2.3.0'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.0'
 
     implementation 'com.google.code.gson:gson:2.8.6'
 }
