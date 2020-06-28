@@ -17,9 +17,25 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    signingConfigs {
+        debug {
+            keyAlias 'Games'
+            keyPassword 'games2018'
+            storeFile file('D:/keystore/xlunzi_keystore.jks')
+            storePassword 'xlunzi2018'
+        }
+        release {
+            keyAlias 'Games'
+            keyPassword 'games2018'
+            storeFile file('D:/keystore/xlunzi_keystore.jks')
+            storePassword 'xlunzi2018'
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
