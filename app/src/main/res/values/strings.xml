@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Answer</string>
+    <string name="home">Home</string>
+    <string name="read_me">ReadMe</string>
+    <string name="other">Other</string>
 
     <array name="book_review">
         <item>
@@ -8,4 +11,7 @@
         <item>给我一个问题，我能告诉你全世界。好玩有趣又新颖。烦恼的时候翻翻它，好像被治愈到了，总有一种忽然被这个世界温柔以待的感觉。</item>
         <item>所有预测都不是真的要知道结局，而是为了赋予自己迎接结局的勇气。</item>
     </array>
+
+    <string name="tip">忙碌的生活，快节奏的工作，烦人的感情，\n无数的选择，无数的困惑和无奈摆在我们面前，\n这个时候，你只需要这个APP，\n拿走一个简单的答案和暗示，\n先想一个最近你特别纠结的问题，点击按钮，\n然后专注10秒，你就会看到你问题的答案。\n你是否要去表白？\n或者同事犯傻要不要告诉他？\n这支股票会不会涨？\n地球到底需不需要超人？\n翻开它，将得到无数的人生解答。</string>
+    <string name="content_abstract">内容简介</string>
 </resources>

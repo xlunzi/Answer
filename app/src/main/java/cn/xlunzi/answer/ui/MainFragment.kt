@@ -113,4 +113,11 @@ class MainFragment : Fragment() {
         setText(tv, text + 1)
     }
 
+    override fun onDestroyView() {
+        super.onDestroyView()
+        if (job != null && job!!.isActive) {
+            job!!.cancel()
+        }
+    }
+
 }

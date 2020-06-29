@@ -45,8 +45,12 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
-    kotlinOptions{
+    kotlinOptions {
         jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    buildFeatures {
+        dataBinding = true
     }
 }
 
@@ -67,6 +71,11 @@ dependencies {
     implementation 'androidx.databinding:databinding-runtime:4.0.0'
     implementation 'androidx.navigation:navigation-runtime-ktx:2.3.0'
     implementation 'androidx.navigation:navigation-fragment-ktx:2.3.0'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.3.0'
+
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.databinding:databinding-runtime:4.0.0'
+    kapt 'androidx.databinding:databinding-compiler:4.0.0'
 
     implementation 'com.google.code.gson:gson:2.8.6'
 }

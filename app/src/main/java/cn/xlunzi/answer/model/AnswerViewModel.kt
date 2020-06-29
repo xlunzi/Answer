@@ -23,7 +23,7 @@ class AnswerViewModel(application: Application) :
     val initTip = "数据初始化未完成，请稍后再试"
     val showResult = "显示答案"
     val isPrepare = "准备"
-    val focusYourProblem = "请专注您的问题"
+    val focusYourProblem = "请专注您的问题\n答案马上揭晓..."
 
     fun tip(): String {
         val stringArray =

@@ -5,7 +5,15 @@
     app:startDestination="@id/fragment_main">
 
     <fragment
+        android:id="@+id/fragment_read_me"
+        android:name="cn.xlunzi.answer.ui.ReadMeFragment" />
+
+    <fragment
         android:id="@+id/fragment_main"
         android:name="cn.xlunzi.answer.ui.MainFragment" />
+
+    <fragment
+        android:id="@+id/fragment_other"
+        android:name="cn.xlunzi.answer.ui.OtherFragment" />
 
 </navigation>
